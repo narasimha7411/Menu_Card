@@ -6,7 +6,7 @@ int main(){
     printf("1.stater\n2.Main course\n3.Dessert\n4.exit");
 
     scanf("%c",&op);
-// who are you
+
     switch(op)
     {
         case '1':
@@ -15,11 +15,11 @@ int main(){
             break;
         case '2':
             printf("you have choosed Main course\n");
-            printf("1.biryani 65\n2.paneer\n3.pastha");
+            printf("1.biryani 65\n2.paneer biryani\n3.curd rice ");
             break;
         case '3':
             printf("you have choosed Dessert\n");
-            printf("1. 65\n2.paneer\n3.pastha");
+            printf("1.laddu \n2.kaju katle\n3.ice cream");
             break;
         case '4':
             printf("Thank you visit agiain\n");
